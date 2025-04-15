@@ -1,17 +1,29 @@
----
-#
-# Here you can change the text shown in the Home page before the Latest Posts section.
-#
-# Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
-layout: home
----
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나만의 주부 블로그</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌿 주부의 성장 블로그</h1>
+    <nav>
+      <ul>
+        <li><a href="재테크팁.html">재테크 팁</a></li>
+        <li><a href="1인주부로그.html">1인 주부로그</a></li>
+        <li><a href="생활철학.html">생활 철학</a></li>
+      </ul>
+    </nav>
+  </header>
 
-Cayman Blog Theme is a clean, responsive blogging theme for Jekyll. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
+  <main>
+    <h2>환영합니다!</h2>
+    <p>이 블로그는 40대 주부가 부업으로 수익을 내고 삶을 기록하는 공간입니다.</p>
+  </main>
 
-This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
-
-Have a look at the Github page for more information.
-
-You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
+  <footer>
+    <p>© 2025 나의 블로그. All rights reserved.</p>
+  </footer>
+</body>
+</html>
